@@ -11,16 +11,18 @@
 </head>
 
 <body>
-    <div class="highlight-clean" style="height: 261px;">
+    <div class="highlight-clean" style="height: 280px;">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center"><strong><em>9animetoMAL</em></strong></h2>
                 <p class="text-center">Coverts a 9anime export.txt file to a MAL.xml</p>
             </div>
             <div class="buttons"><label data-bs-hover-animate="pulse" class="btn btn-primary"><strong>UPLOAD THE 9ANIME EXPORT FILE</strong><input type="file" id="file-selector" hidden="" accept=".txt"></label></div>
+            <div class="invisible buttons" id="waiting"><span>Please&nbsp;stand by for&nbsp;</span><span id="timer" style="font-weight: bold;"></span></div>
+            <div class="invisible buttons" id="waiting-1"><span style="font-size: x-small;">(You can go watch an episode or press Shift/Option+CTRL/⌘+J)</span></div>
         </div>
     </div>
-    <div class="visible newsletter-subscribe" style="padding: 10px;">
+    <div class="visible newsletter-subscribe" style="padding: 0px;">
         <div class="container invisible" id="downloadDiv">
             <div class="intro">
                 <h2 class="text-center"><strong>Download ready:</strong>&nbsp;</h2>
